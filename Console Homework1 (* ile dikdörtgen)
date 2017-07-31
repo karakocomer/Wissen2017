@@ -1,0 +1,16 @@
+ int g, y ;
+            Console.WriteLine("Genişliği giriniz.");
+            g = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Yüksekliği giriniz.");
+            y = Convert.ToInt32(Console.ReadLine());
+
+            for (int i = 0; i < y; i++)
+            {
+                for (int j = 1; j < g; j++)
+                {
+                    Console.Write(" * ");
+
+                }
+                Console.WriteLine(" * ");
+            }
+            Console.ReadKey();
